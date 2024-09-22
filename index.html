@@ -26,61 +26,85 @@
         <form>
           <section>
             <h2>Let's do this</h2>
-            <div>
-              <label for="firstName">First Name</label>
-              <input
-                type="text"
-                id="firstName"
-                name="firstName"
-                required
-                minlength="1"
-                maxlength="140" />
-            </div>
+            <div class="formContent">
+              <div class="row">
+                <div>
+                  <label for="firstName">First Name</label>
+                  <input
+                    placeholder="Juan"
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    required
+                    minlength="1"
+                    maxlength="140" />
+                </div>
 
-            <div>
-              <label for="lastName">Last Name</label>
-              <input
-                type="text"
-                id="lastName"
-                name="lastName"
-                required
-                minlength="1"
-                maxlength="140" />
-            </div>
+                <div>
+                  <label for="lastName">Last Name</label>
+                  <input
+                    placeholder="dela Cruz"
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    required
+                    minlength="1"
+                    maxlength="140" />
+                </div>
+              </div>
 
-            <div>
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required />
-            </div>
+              <div class="row">
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="youremail@gmail.com"
+                    name="email"
+                    required />
+                </div>
 
-            <div>
-              <label for="phoneNumber">Phone Number</label>
-              <input type="tel" id="phoneNumber" name="phoneNumber" required />
-            </div>
+                <div>
+                  <label for="phoneNumber">Phone Number</label>
+                  <input
+                    placeholder="09123456789"
+                    type="tel"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    required />
+                </div>
+              </div>
 
-            <div>
-              <label for="password">Password</label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                required
-                minlength="5"
-                maxlength="140" />
-            </div>
+              <div class="row">
+                <div>
+                  <label for="password">Password</label>
+                  <input
+                    placeholder="password..."
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                    minlength="5"
+                    maxlength="140" />
+                </div>
 
-            <div>
-              <label for="confirmPassword">Confirm Password</label>
-              <input
-                type="password"
-                id="confirmPassword"
-                name="confirmPassword"
-                required />
+                <div>
+                  <label for="confirmPassword">Confirm Password</label>
+                  <input
+                    placeholder="confirm password..."
+                    type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    required />
+                </div>
+              </div>
             </div>
           </section>
 
-          <button type="submit">Create Account</button>
-          <p>Already have an account? <a href="#">Log in</a></p>
+          <div class="btn">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
         </form>
       </main>
     </div>
